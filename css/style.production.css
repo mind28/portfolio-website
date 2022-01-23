@@ -12,12 +12,13 @@ primary color Light : #EEEBDD
 secondary color dark: #D8B6A4
  */
 * {
-  -webkit-box-sizing: border-box;
+
   box-sizing: border-box;
 }
 
 body {
   background-color: #EEEBDD;
+  color: #630000;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -46,8 +47,7 @@ h3 {
 
 a {
   color: #630000;
-  -webkit-transition: 02s opacity;
-  -o-transition: 02s opacity;
+
   transition: 02s opacity;
 }
 
@@ -313,7 +313,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .sun, .sun-giant {
-  -webkit-animation: 10s color-change infinite alternate linear;
+
   animation: 10s color-change infinite alternate linear;
 }
 
